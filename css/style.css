@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+
+header img{
+	display: inline-block;
+	max-width:100px;
+	max-height:100px;
+	width: 10%;
+    height: 10%;
+	background: #555;
+	vertical-align: middle;
+}
+
+header h1 {
+    display: inline-block;
+    top: 18px;
+    left: 10px;
+    
+	vertical-align: middle;
+    font-size:28px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 400;
+    color: #333333;
+    background-color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:20px;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: 300;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+li a:active {
+  background-color: #4CAF50;
+}
+
+section h2 {
+	font-size:20px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 500;
+    color: #333333;
+    background-color: white;
+}
+
+section p{
+  width: 100%;
+  font-size:20px;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: 400;
+  color: #333333;
+  background-color: white;
+}
+
+hr.style1{
+	border-top: 1px solid #8c8b8b;
+	width:100%;
+	text-align: left;
+	margin-left: 0;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  font-size:14px;
+  font-weight: 100;
+  font-family: 'Noto Sans TC', sans-serif;
+  text-align: center;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+table, th, td {
+	border-width: 1 px;
+	border-style: solid;
+	border-color: #333;
+}
+
+table img{
+	display: block;
+	width:100%;
+}
+
+table h3 {
+	font-size:24px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 500;
+    color: #333333;
+    background-color: white;
+	
+	margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0.5em;
+    margin-right: 0;
+}
+
+table p{
+    width: 100%;
+    font-size:20px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 400;
+    color: #333333;
+    background-color: white;
+  
+  	margin-top: 0;
+    margin-bottom: 0.5em;
+    margin-left: 0.5em;
+    margin-right: 0;
+}
